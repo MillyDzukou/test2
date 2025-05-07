@@ -13,3 +13,11 @@ while(a<10):
 print("End of the while loop")
 
 """ This is a comment to show you that I this file is updated by Mai 06, 2025"""
+
+file = "idiot.txt"
+stream = open(file, 'w')
+stream.write("This man is crazy")
+stream.flush()
+stream.close()
+
+print("End of the program")
