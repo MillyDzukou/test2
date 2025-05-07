@@ -8,6 +8,6 @@ for i in range(10):
 
 a=0
 while(a<10):
-    print("This is the {} th term".format(a))
+    print("This is the {} th term".format(a**2))
     a = a+1
 print("End of the while loop")
